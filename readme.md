@@ -27,3 +27,25 @@ Three ways to add files to staging:
 - Add one file at a time with: `git add <filename>`
 - Add all files in the repo with: `git add -A`
 - Add all files in my current folder with: `git add .`
+
+---
+
+## Committing Files to Our Repo
+
+```
+git commit -m "some random text, something descriptive"
+```
+
+**If you forget the -m, you'll end up in vim, to exit - type ":wq"**
+
+---
+
+## Looking at our Commit History
+
+```
+git log
+```
+
+```
+git log --oneline
+```
